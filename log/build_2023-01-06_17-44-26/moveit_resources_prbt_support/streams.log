@@ -1,0 +1,44 @@
+[0.280s] Invoking command in '/home/w0x7ce/ws_moveit2/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/w0x7ce/ws_moveit2/install/moveit_configs_utils:/home/w0x7ce/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/w0x7ce/ws_moveit2/build/moveit_resources_prbt_support -- -j4 -l4
+[1.382s] Invoked command in '/home/w0x7ce/ws_moveit2/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/w0x7ce/ws_moveit2/install/moveit_configs_utils:/home/w0x7ce/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/w0x7ce/ws_moveit2/build/moveit_resources_prbt_support -- -j4 -l4
+[1.456s] Invoking command in '/home/w0x7ce/ws_moveit2/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/w0x7ce/ws_moveit2/install/moveit_configs_utils:/home/w0x7ce/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/w0x7ce/ws_moveit2/build/moveit_resources_prbt_support
+[1.495s] -- Install configuration: ""
+[1.495s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/ament_index/resource_index/package_run_dependencies/moveit_resources_prbt_support
+[1.586s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/ament_index/resource_index/parent_prefix_path/moveit_resources_prbt_support
+[1.604s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/ament_prefix_path.sh
+[1.604s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/ament_prefix_path.dsv
+[1.605s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/path.sh
+[1.605s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/path.dsv
+[1.605s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.bash
+[1.605s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.sh
+[1.606s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.zsh
+[1.606s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.dsv
+[1.606s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/package.dsv
+[1.861s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/ament_index/resource_index/packages/moveit_resources_prbt_support
+[1.861s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/cmake/moveit_resources_prbt_supportConfig.cmake
+[1.862s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/cmake/moveit_resources_prbt_supportConfig-version.cmake
+[1.862s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/package.xml
+[1.862s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf
+[1.903s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt.xacro
+[1.903s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt.ros2_control.xacro
+[1.903s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt_macro.xacro
+[1.903s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/simple_gripper_brackets.urdf.xacro
+[1.903s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes
+[2.103s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_5.stl
+[2.104s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_3.dae
+[2.104s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/flange.stl
+[2.105s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_4.stl
+[2.105s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_4.dae
+[2.105s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/flange.dae
+[2.105s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/foot.stl
+[2.106s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_2.stl
+[2.106s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_1.stl
+[2.106s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_5.dae
+[2.107s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_1.dae
+[2.107s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_2.dae
+[2.107s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_3.stl
+[2.107s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/foot.dae
+[2.108s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config
+[2.123s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/prbt_0_1.dcf
+[2.123s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/manipulator_controller.yaml
+[2.124s] -- Up-to-date: /home/w0x7ce/ws_moveit2/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/manipulator_driver.yaml
+[2.160s] Invoked command in '/home/w0x7ce/ws_moveit2/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/w0x7ce/ws_moveit2/install/moveit_configs_utils:/home/w0x7ce/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/w0x7ce/ws_moveit2/build/moveit_resources_prbt_support

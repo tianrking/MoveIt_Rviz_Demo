@@ -1,0 +1,6 @@
+Invoking command in '/home/w0x7ce/ws_moveit2/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/w0x7ce/ws_moveit2/src/rosparam_shortcuts -DCMAKE_INSTALL_PREFIX=/home/w0x7ce/ws_moveit2/install/rosparam_shortcuts
+Invoked command in '/home/w0x7ce/ws_moveit2/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/w0x7ce/ws_moveit2/src/rosparam_shortcuts -DCMAKE_INSTALL_PREFIX=/home/w0x7ce/ws_moveit2/install/rosparam_shortcuts
+Invoking command in '/home/w0x7ce/ws_moveit2/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/w0x7ce/ws_moveit2/build/rosparam_shortcuts -- -j4 -l4
+Invoked command in '/home/w0x7ce/ws_moveit2/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/w0x7ce/ws_moveit2/build/rosparam_shortcuts -- -j4 -l4
+Invoking command in '/home/w0x7ce/ws_moveit2/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/w0x7ce/ws_moveit2/build/rosparam_shortcuts
+Invoked command in '/home/w0x7ce/ws_moveit2/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/w0x7ce/ws_moveit2/build/rosparam_shortcuts

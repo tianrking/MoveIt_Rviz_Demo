@@ -1,0 +1,2 @@
+/usr/bin/ar qc libik_clearance_cost_parameters.a 
+/usr/bin/ranlib libik_clearance_cost_parameters.a

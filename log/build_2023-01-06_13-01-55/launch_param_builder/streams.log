@@ -1,0 +1,23 @@
+[6.355s] Invoking command in '/home/w0x7ce/ws_moveit2/src/launch_param_builder': PYTHONPATH=/home/w0x7ce/ws_moveit2/build/launch_param_builder/prefix_override:/home/w0x7ce/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_param_builder build --build-base /home/w0x7ce/ws_moveit2/build/launch_param_builder/build install --record /home/w0x7ce/ws_moveit2/build/launch_param_builder/install.log --single-version-externally-managed
+[6.647s] running egg_info
+[6.647s] writing ../../build/launch_param_builder/launch_param_builder.egg-info/PKG-INFO
+[6.647s] writing dependency_links to ../../build/launch_param_builder/launch_param_builder.egg-info/dependency_links.txt
+[6.648s] writing entry points to ../../build/launch_param_builder/launch_param_builder.egg-info/entry_points.txt
+[6.648s] writing requirements to ../../build/launch_param_builder/launch_param_builder.egg-info/requires.txt
+[6.648s] writing top-level names to ../../build/launch_param_builder/launch_param_builder.egg-info/top_level.txt
+[6.650s] reading manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[6.662s] adding license file 'LICENSE'
+[6.663s] writing manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[6.664s] running build
+[6.664s] running build_py
+[6.664s] running install
+[6.664s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.664s]   warnings.warn(
+[6.664s] running install_lib
+[6.666s] running install_data
+[6.666s] running install_egg_info
+[6.668s] removing '/home/w0x7ce/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder-0.1.1-py3.10.egg-info' (and everything under it)
+[6.668s] Copying ../../build/launch_param_builder/launch_param_builder.egg-info to /home/w0x7ce/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder-0.1.1-py3.10.egg-info
+[6.700s] running install_scripts
+[6.727s] writing list of installed files to '/home/w0x7ce/ws_moveit2/build/launch_param_builder/install.log'
+[6.757s] Invoked command in '/home/w0x7ce/ws_moveit2/src/launch_param_builder' returned '0': PYTHONPATH=/home/w0x7ce/ws_moveit2/build/launch_param_builder/prefix_override:/home/w0x7ce/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_param_builder build --build-base /home/w0x7ce/ws_moveit2/build/launch_param_builder/build install --record /home/w0x7ce/ws_moveit2/build/launch_param_builder/install.log --single-version-externally-managed

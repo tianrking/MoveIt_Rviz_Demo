@@ -1,0 +1,189 @@
+[0.038s] Invoking command in '/home/w0x7ce/ws_moveit2/build/moveit_servo': AMENT_PREFIX_PATH=/home/w0x7ce/ws_moveit2/install/moveit_ros_planning_interface:/home/w0x7ce/ws_moveit2/install/moveit_ros_move_group:/home/w0x7ce/ws_moveit2/install/moveit_ros_warehouse:/home/w0x7ce/ws_moveit2/install/moveit_kinematics:/home/w0x7ce/ws_moveit2/install/moveit_ros_planning:/home/w0x7ce/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/w0x7ce/ws_moveit2/install/moveit_core:/home/w0x7ce/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/w0x7ce/ws_moveit2/install/moveit_configs_utils:/home/w0x7ce/ws_moveit2/install/srdfdom:/home/w0x7ce/ws_moveit2/install/moveit_resources_panda_description:/home/w0x7ce/ws_moveit2/install/moveit_common:/home/w0x7ce/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/w0x7ce/ws_moveit2/install/moveit_ros_planning_interface:/home/w0x7ce/ws_moveit2/install/moveit_ros_move_group:/home/w0x7ce/ws_moveit2/install/moveit_ros_warehouse:/home/w0x7ce/ws_moveit2/install/moveit_kinematics:/home/w0x7ce/ws_moveit2/install/moveit_ros_planning:/home/w0x7ce/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/w0x7ce/ws_moveit2/install/moveit_core:/home/w0x7ce/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/w0x7ce/ws_moveit2/install/srdfdom:/home/w0x7ce/ws_moveit2/install/moveit_resources_panda_description:/home/w0x7ce/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/w0x7ce/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/w0x7ce/ws_moveit2/install/moveit_ros_move_group/lib:/home/w0x7ce/ws_moveit2/install/moveit_ros_warehouse/lib:/home/w0x7ce/ws_moveit2/install/moveit_kinematics/lib:/home/w0x7ce/ws_moveit2/install/moveit_ros_planning/lib:/home/w0x7ce/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/w0x7ce/ws_moveit2/install/moveit_core/lib:/home/w0x7ce/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/w0x7ce/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/w0x7ce/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/w0x7ce/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/w0x7ce/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/w0x7ce/ws_moveit2/src/moveit2/moveit_ros/moveit_servo -DCMAKE_INSTALL_PREFIX=/home/w0x7ce/ws_moveit2/install/moveit_servo
+[0.119s] -- The C compiler identification is GNU 11.3.0
+[0.195s] -- The CXX compiler identification is GNU 11.3.0
+[0.207s] -- Detecting C compiler ABI info
+[0.301s] -- Detecting C compiler ABI info - done
+[0.314s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.315s] -- Detecting C compile features
+[0.315s] -- Detecting C compile features - done
+[0.319s] -- Detecting CXX compiler ABI info
+[0.429s] -- Detecting CXX compiler ABI info - done
+[0.441s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.443s] -- Detecting CXX compile features
+[0.444s] -- Detecting CXX compile features - done
+[0.446s] -- Found moveit_common: 2.5.4 (/home/w0x7ce/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[0.451s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.707s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.980s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.990s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.990s] -- BACKWARD_HAS_UNWIND=1
+[0.991s] -- BACKWARD_HAS_BACKTRACE=0
+[0.991s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.991s] -- BACKWARD_HAS_DW=1
+[0.991s] -- BACKWARD_HAS_BFD=0
+[0.992s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.993s] [0mmoveit_servo: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.997s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.008s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.011s] -- Found control_msgs: 4.1.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.071s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.083s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.100s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.123s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.174s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.043s] -- Found control_toolbox: 2.1.2 (/opt/ros/humble/share/control_toolbox/cmake)
+[2.166s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.172s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.338s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.382s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.463s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.481s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.672s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.675s] -- Found Threads: TRUE  
+[2.978s] -- Found moveit_core: 2.5.4 (/home/w0x7ce/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+[3.043s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[3.069s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[3.227s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.568s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.895s] -- Found moveit_ros_planning: 2.5.4 (/home/w0x7ce/ws_moveit2/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[4.901s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[5.450s] -- Found std_srvs: 4.2.2 (/opt/ros/humble/share/std_srvs/cmake)
+[5.936s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.940s] -- Found ament_cmake_gtest: 1.3.3 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[5.944s] -- Found ros_testing: 0.4.0 (/opt/ros/humble/share/ros_testing/cmake)
+[5.947s] -- Found launch_testing_ament_cmake: 1.0.3 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[5.950s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.979s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[5.985s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[5.985s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.985s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.985s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.014s] -- Found PythonExtra: .so  
+[6.019s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[6.630s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.927s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.930s] -- Configured cppcheck include dirs: /home/w0x7ce/ws_moveit2/src/moveit2/moveit_ros/moveit_servo/include
+[6.930s] -- Configured cppcheck exclude dirs and/or files: 
+[6.933s] -- Added test 'lint_cmake' to check CMake code style
+[6.934s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.935s] -- Added test 'xmllint' to check XML markup files
+[6.937s] -- Configuring done
+[7.738s] -- Generating done
+[7.742s] -- Build files have been written to: /home/w0x7ce/ws_moveit2/build/moveit_servo
+[7.769s] Invoked command in '/home/w0x7ce/ws_moveit2/build/moveit_servo' returned '0': AMENT_PREFIX_PATH=/home/w0x7ce/ws_moveit2/install/moveit_ros_planning_interface:/home/w0x7ce/ws_moveit2/install/moveit_ros_move_group:/home/w0x7ce/ws_moveit2/install/moveit_ros_warehouse:/home/w0x7ce/ws_moveit2/install/moveit_kinematics:/home/w0x7ce/ws_moveit2/install/moveit_ros_planning:/home/w0x7ce/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/w0x7ce/ws_moveit2/install/moveit_core:/home/w0x7ce/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/w0x7ce/ws_moveit2/install/moveit_configs_utils:/home/w0x7ce/ws_moveit2/install/srdfdom:/home/w0x7ce/ws_moveit2/install/moveit_resources_panda_description:/home/w0x7ce/ws_moveit2/install/moveit_common:/home/w0x7ce/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/w0x7ce/ws_moveit2/install/moveit_ros_planning_interface:/home/w0x7ce/ws_moveit2/install/moveit_ros_move_group:/home/w0x7ce/ws_moveit2/install/moveit_ros_warehouse:/home/w0x7ce/ws_moveit2/install/moveit_kinematics:/home/w0x7ce/ws_moveit2/install/moveit_ros_planning:/home/w0x7ce/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/w0x7ce/ws_moveit2/install/moveit_core:/home/w0x7ce/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/w0x7ce/ws_moveit2/install/srdfdom:/home/w0x7ce/ws_moveit2/install/moveit_resources_panda_description:/home/w0x7ce/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/w0x7ce/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/w0x7ce/ws_moveit2/install/moveit_ros_move_group/lib:/home/w0x7ce/ws_moveit2/install/moveit_ros_warehouse/lib:/home/w0x7ce/ws_moveit2/install/moveit_kinematics/lib:/home/w0x7ce/ws_moveit2/install/moveit_ros_planning/lib:/home/w0x7ce/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/w0x7ce/ws_moveit2/install/moveit_core/lib:/home/w0x7ce/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/w0x7ce/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/w0x7ce/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/w0x7ce/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/w0x7ce/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/w0x7ce/ws_moveit2/src/moveit2/moveit_ros/moveit_servo -DCMAKE_INSTALL_PREFIX=/home/w0x7ce/ws_moveit2/install/moveit_servo
+[7.769s] Invoking command in '/home/w0x7ce/ws_moveit2/build/moveit_servo': AMENT_PREFIX_PATH=/home/w0x7ce/ws_moveit2/install/moveit_ros_planning_interface:/home/w0x7ce/ws_moveit2/install/moveit_ros_move_group:/home/w0x7ce/ws_moveit2/install/moveit_ros_warehouse:/home/w0x7ce/ws_moveit2/install/moveit_kinematics:/home/w0x7ce/ws_moveit2/install/moveit_ros_planning:/home/w0x7ce/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/w0x7ce/ws_moveit2/install/moveit_core:/home/w0x7ce/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/w0x7ce/ws_moveit2/install/moveit_configs_utils:/home/w0x7ce/ws_moveit2/install/srdfdom:/home/w0x7ce/ws_moveit2/install/moveit_resources_panda_description:/home/w0x7ce/ws_moveit2/install/moveit_common:/home/w0x7ce/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/w0x7ce/ws_moveit2/install/moveit_ros_planning_interface:/home/w0x7ce/ws_moveit2/install/moveit_ros_move_group:/home/w0x7ce/ws_moveit2/install/moveit_ros_warehouse:/home/w0x7ce/ws_moveit2/install/moveit_kinematics:/home/w0x7ce/ws_moveit2/install/moveit_ros_planning:/home/w0x7ce/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/w0x7ce/ws_moveit2/install/moveit_core:/home/w0x7ce/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/w0x7ce/ws_moveit2/install/srdfdom:/home/w0x7ce/ws_moveit2/install/moveit_resources_panda_description:/home/w0x7ce/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/w0x7ce/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/w0x7ce/ws_moveit2/install/moveit_ros_move_group/lib:/home/w0x7ce/ws_moveit2/install/moveit_ros_warehouse/lib:/home/w0x7ce/ws_moveit2/install/moveit_kinematics/lib:/home/w0x7ce/ws_moveit2/install/moveit_ros_planning/lib:/home/w0x7ce/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/w0x7ce/ws_moveit2/install/moveit_core/lib:/home/w0x7ce/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/w0x7ce/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/w0x7ce/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/w0x7ce/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/w0x7ce/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/w0x7ce/ws_moveit2/build/moveit_servo -- -j4 -l4
+[7.810s] [  2%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib_parameters.dir/src/servo_parameters.cpp.o[0m
+[20.324s] [  5%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib_parameters.dir/src/parameter_descriptor_builder.cpp.o[0m
+[21.121s] [  8%] [32m[1mLinking CXX shared library libmoveit_servo_lib_parameters.so[0m
+[21.509s] [  8%] Built target moveit_servo_lib_parameters
+[21.522s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[22.627s] [ 14%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[22.685s] [ 14%] Built target gtest_main
+[22.698s] [ 17%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[31.984s] [ 20%] [32m[1mLinking CXX static library libgtest.a[0m
+[32.074s] [ 20%] Built target gtest
+[32.092s] [ 23%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib.dir/src/collision_check.cpp.o[0m
+[47.828s] [ 26%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib.dir/src/enforce_limits.cpp.o[0m
+[52.868s] [ 29%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib.dir/src/servo.cpp.o[0m
+[66.623s] [ 32%] [32mBuilding CXX object CMakeFiles/moveit_servo_lib.dir/src/servo_calcs.cpp.o[0m
+[124.881s] [ 35%] [32m[1mLinking CXX shared library libmoveit_servo_lib.so[0m
+[125.643s] [ 35%] Built target moveit_servo_lib
+[125.657s] [ 38%] [32mBuilding CXX object CMakeFiles/test_servo_integration.dir/test/test_servo_interface.cpp.o[0m
+[161.222s] [ 41%] [32m[1mLinking CXX executable test_servo_integration[0m
+[161.789s] [ 41%] Built target test_servo_integration
+[161.803s] [ 44%] [32mBuilding CXX object CMakeFiles/test_servo_collision.dir/test/test_servo_collision.cpp.o[0m
+[194.859s] [ 47%] [32m[1mLinking CXX executable test_servo_collision[0m
+[195.372s] [ 47%] Built target test_servo_collision
+[195.385s] [ 50%] [32mBuilding CXX object CMakeFiles/enforce_limits_tests.dir/test/enforce_limits_tests.cpp.o[0m
+[201.174s] [ 52%] [32m[1mLinking CXX executable enforce_limits_tests[0m
+[201.726s] [ 52%] Built target enforce_limits_tests
+[201.740s] [ 55%] [32mBuilding CXX object CMakeFiles/pose_tracking.dir/src/pose_tracking.cpp.o[0m
+[226.772s] [ 58%] [32m[1mLinking CXX shared library libpose_tracking.so[0m
+[227.266s] [ 58%] Built target pose_tracking
+[227.281s] [ 61%] [32mBuilding CXX object CMakeFiles/servo_node.dir/src/servo_node.cpp.o[0m
+[243.074s] [ 64%] [32m[1mLinking CXX shared library libservo_node.so[0m
+[243.637s] [ 64%] Built target servo_node
+[243.651s] [ 67%] [32mBuilding CXX object CMakeFiles/servo_pose_tracking_demo.dir/src/cpp_interface_demo/pose_tracking_demo.cpp.o[0m
+[267.797s] [ 70%] [32m[1mLinking CXX executable servo_pose_tracking_demo[0m
+[268.581s] [ 70%] Built target servo_pose_tracking_demo
+[268.595s] [ 73%] [32mBuilding CXX object CMakeFiles/test_servo_pose_tracking.dir/test/pose_tracking_test.cpp.o[0m
+[295.212s] [ 76%] [32m[1mLinking CXX executable test_servo_pose_tracking[0m
+[296.291s] [ 76%] Built target test_servo_pose_tracking
+[296.310s] [ 79%] [32mBuilding CXX object CMakeFiles/basic_servo_tests.dir/test/basic_servo_tests.cpp.o[0m
+[333.280s] [ 82%] [32m[1mLinking CXX executable basic_servo_tests[0m
+[333.963s] [ 82%] Built target basic_servo_tests
+[333.977s] [ 85%] [32mBuilding CXX object CMakeFiles/servo_node_main.dir/src/servo_node_main.cpp.o[0m
+[347.326s] [ 88%] [32m[1mLinking CXX executable servo_node_main[0m
+[347.832s] [ 88%] Built target servo_node_main
+[347.844s] [ 91%] [32mBuilding CXX object CMakeFiles/fake_command_publisher.dir/test/publish_fake_jog_commands.cpp.o[0m
+[352.921s] [ 94%] [32m[1mLinking CXX executable fake_command_publisher[0m
+[353.068s] [ 94%] Built target fake_command_publisher
+[353.082s] [ 97%] [32mBuilding CXX object CMakeFiles/servo_controller_input.dir/src/teleop_demo/joystick_servo_example.cpp.o[0m
+[369.498s] [100%] [32m[1mLinking CXX shared library libservo_controller_input.so[0m
+[369.847s] [100%] Built target servo_controller_input
+[369.855s] Invoked command in '/home/w0x7ce/ws_moveit2/build/moveit_servo' returned '0': AMENT_PREFIX_PATH=/home/w0x7ce/ws_moveit2/install/moveit_ros_planning_interface:/home/w0x7ce/ws_moveit2/install/moveit_ros_move_group:/home/w0x7ce/ws_moveit2/install/moveit_ros_warehouse:/home/w0x7ce/ws_moveit2/install/moveit_kinematics:/home/w0x7ce/ws_moveit2/install/moveit_ros_planning:/home/w0x7ce/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/w0x7ce/ws_moveit2/install/moveit_core:/home/w0x7ce/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/w0x7ce/ws_moveit2/install/moveit_configs_utils:/home/w0x7ce/ws_moveit2/install/srdfdom:/home/w0x7ce/ws_moveit2/install/moveit_resources_panda_description:/home/w0x7ce/ws_moveit2/install/moveit_common:/home/w0x7ce/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/w0x7ce/ws_moveit2/install/moveit_ros_planning_interface:/home/w0x7ce/ws_moveit2/install/moveit_ros_move_group:/home/w0x7ce/ws_moveit2/install/moveit_ros_warehouse:/home/w0x7ce/ws_moveit2/install/moveit_kinematics:/home/w0x7ce/ws_moveit2/install/moveit_ros_planning:/home/w0x7ce/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/w0x7ce/ws_moveit2/install/moveit_core:/home/w0x7ce/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/w0x7ce/ws_moveit2/install/srdfdom:/home/w0x7ce/ws_moveit2/install/moveit_resources_panda_description:/home/w0x7ce/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/w0x7ce/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/w0x7ce/ws_moveit2/install/moveit_ros_move_group/lib:/home/w0x7ce/ws_moveit2/install/moveit_ros_warehouse/lib:/home/w0x7ce/ws_moveit2/install/moveit_kinematics/lib:/home/w0x7ce/ws_moveit2/install/moveit_ros_planning/lib:/home/w0x7ce/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/w0x7ce/ws_moveit2/install/moveit_core/lib:/home/w0x7ce/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/w0x7ce/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/w0x7ce/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/w0x7ce/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/w0x7ce/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/w0x7ce/ws_moveit2/build/moveit_servo -- -j4 -l4
+[369.938s] Invoking command in '/home/w0x7ce/ws_moveit2/build/moveit_servo': AMENT_PREFIX_PATH=/home/w0x7ce/ws_moveit2/install/moveit_ros_planning_interface:/home/w0x7ce/ws_moveit2/install/moveit_ros_move_group:/home/w0x7ce/ws_moveit2/install/moveit_ros_warehouse:/home/w0x7ce/ws_moveit2/install/moveit_kinematics:/home/w0x7ce/ws_moveit2/install/moveit_ros_planning:/home/w0x7ce/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/w0x7ce/ws_moveit2/install/moveit_core:/home/w0x7ce/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/w0x7ce/ws_moveit2/install/moveit_configs_utils:/home/w0x7ce/ws_moveit2/install/srdfdom:/home/w0x7ce/ws_moveit2/install/moveit_resources_panda_description:/home/w0x7ce/ws_moveit2/install/moveit_common:/home/w0x7ce/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/w0x7ce/ws_moveit2/install/moveit_ros_planning_interface:/home/w0x7ce/ws_moveit2/install/moveit_ros_move_group:/home/w0x7ce/ws_moveit2/install/moveit_ros_warehouse:/home/w0x7ce/ws_moveit2/install/moveit_kinematics:/home/w0x7ce/ws_moveit2/install/moveit_ros_planning:/home/w0x7ce/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/w0x7ce/ws_moveit2/install/moveit_core:/home/w0x7ce/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/w0x7ce/ws_moveit2/install/srdfdom:/home/w0x7ce/ws_moveit2/install/moveit_resources_panda_description:/home/w0x7ce/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/w0x7ce/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/w0x7ce/ws_moveit2/install/moveit_ros_move_group/lib:/home/w0x7ce/ws_moveit2/install/moveit_ros_warehouse/lib:/home/w0x7ce/ws_moveit2/install/moveit_kinematics/lib:/home/w0x7ce/ws_moveit2/install/moveit_ros_planning/lib:/home/w0x7ce/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/w0x7ce/ws_moveit2/install/moveit_core/lib:/home/w0x7ce/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/w0x7ce/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/w0x7ce/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/w0x7ce/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/w0x7ce/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/w0x7ce/ws_moveit2/build/moveit_servo
+[369.948s] -- Install configuration: "Release"
+[369.949s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/lib/libmoveit_servo_lib.so.2.5.4
+[369.950s] -- Set runtime path of "/home/w0x7ce/ws_moveit2/install/moveit_servo/lib/libmoveit_servo_lib.so.2.5.4" to ""
+[369.950s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/lib/libmoveit_servo_lib.so
+[369.950s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/lib/libmoveit_servo_lib_parameters.so.2.5.4
+[369.951s] -- Set runtime path of "/home/w0x7ce/ws_moveit2/install/moveit_servo/lib/libmoveit_servo_lib_parameters.so.2.5.4" to ""
+[369.951s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/lib/libmoveit_servo_lib_parameters.so
+[369.952s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/lib/libpose_tracking.so
+[369.953s] -- Set runtime path of "/home/w0x7ce/ws_moveit2/install/moveit_servo/lib/libpose_tracking.so" to ""
+[369.954s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/lib/libservo_node.so
+[369.954s] -- Set runtime path of "/home/w0x7ce/ws_moveit2/install/moveit_servo/lib/libservo_node.so" to ""
+[369.955s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/lib/libservo_controller_input.so
+[369.957s] -- Set runtime path of "/home/w0x7ce/ws_moveit2/install/moveit_servo/lib/libservo_controller_input.so" to ""
+[369.957s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/lib/moveit_servo/servo_node_main
+[369.958s] -- Set runtime path of "/home/w0x7ce/ws_moveit2/install/moveit_servo/lib/moveit_servo/servo_node_main" to ""
+[369.958s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/lib/moveit_servo/servo_pose_tracking_demo
+[369.960s] -- Set runtime path of "/home/w0x7ce/ws_moveit2/install/moveit_servo/lib/moveit_servo/servo_pose_tracking_demo" to ""
+[369.960s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/lib/moveit_servo/fake_command_publisher
+[369.961s] -- Set runtime path of "/home/w0x7ce/ws_moveit2/install/moveit_servo/lib/moveit_servo/fake_command_publisher" to ""
+[369.962s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/include
+[369.962s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/include/moveit_servo
+[369.962s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/include/moveit_servo/servo_calcs.h
+[369.962s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/include/moveit_servo/make_shared_from_pool.h
+[369.963s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/include/moveit_servo/parameter_descriptor_builder.hpp
+[369.963s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/include/moveit_servo/servo_server.h
+[369.979s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/include/moveit_servo/servo_node.h
+[369.979s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/include/moveit_servo/servo_parameters.h
+[369.979s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/include/moveit_servo/pose_tracking.h
+[369.980s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/include/moveit_servo/status_codes.h
+[369.980s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/include/moveit_servo/enforce_limits.hpp
+[369.980s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/include/moveit_servo/servo.h
+[369.980s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/include/moveit_servo/collision_check.h
+[369.981s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/moveit_servo/launch
+[369.981s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/moveit_servo/launch/pose_tracking_example.launch.py
+[369.981s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/moveit_servo/launch/servo_example.launch.py
+[369.981s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/moveit_servo/config
+[369.982s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/moveit_servo/config/demo_rviz_pose_tracking.rviz
+[369.987s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/moveit_servo/config/demo_rviz_config.rviz
+[369.987s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/moveit_servo/config/panda_simulated_config_pose_tracking.yaml
+[369.988s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/moveit_servo/config/pose_tracking_settings.yaml
+[369.988s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/moveit_servo/config/panda_simulated_config.yaml
+[369.988s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/moveit_servo/environment/library_path.sh
+[369.989s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/moveit_servo/environment/library_path.dsv
+[369.989s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/ament_index/resource_index/package_run_dependencies/moveit_servo
+[369.990s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/ament_index/resource_index/parent_prefix_path/moveit_servo
+[369.990s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/moveit_servo/environment/ament_prefix_path.sh
+[369.990s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/moveit_servo/environment/ament_prefix_path.dsv
+[369.991s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/moveit_servo/environment/path.sh
+[369.991s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/moveit_servo/environment/path.dsv
+[369.991s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/moveit_servo/local_setup.bash
+[369.992s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/moveit_servo/local_setup.sh
+[369.992s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/moveit_servo/local_setup.zsh
+[369.992s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/moveit_servo/local_setup.dsv
+[369.993s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/moveit_servo/package.dsv
+[369.993s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/ament_index/resource_index/packages/moveit_servo
+[369.993s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/ament_index/resource_index/rclcpp_components/moveit_servo
+[369.994s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/moveit_servo/cmake/export_moveit_servoExport.cmake
+[369.994s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/moveit_servo/cmake/export_moveit_servoExport-release.cmake
+[369.994s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/moveit_servo/cmake/ament_cmake_export_targets-extras.cmake
+[369.995s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/moveit_servo/cmake/ament_cmake_export_dependencies-extras.cmake
+[369.995s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/moveit_servo/cmake/moveit_servoConfig.cmake
+[369.995s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/moveit_servo/cmake/moveit_servoConfig-version.cmake
+[369.996s] -- Installing: /home/w0x7ce/ws_moveit2/install/moveit_servo/share/moveit_servo/package.xml
+[370.003s] Invoked command in '/home/w0x7ce/ws_moveit2/build/moveit_servo' returned '0': AMENT_PREFIX_PATH=/home/w0x7ce/ws_moveit2/install/moveit_ros_planning_interface:/home/w0x7ce/ws_moveit2/install/moveit_ros_move_group:/home/w0x7ce/ws_moveit2/install/moveit_ros_warehouse:/home/w0x7ce/ws_moveit2/install/moveit_kinematics:/home/w0x7ce/ws_moveit2/install/moveit_ros_planning:/home/w0x7ce/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/w0x7ce/ws_moveit2/install/moveit_core:/home/w0x7ce/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/w0x7ce/ws_moveit2/install/moveit_configs_utils:/home/w0x7ce/ws_moveit2/install/srdfdom:/home/w0x7ce/ws_moveit2/install/moveit_resources_panda_description:/home/w0x7ce/ws_moveit2/install/moveit_common:/home/w0x7ce/ws_moveit2/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/w0x7ce/ws_moveit2/install/moveit_ros_planning_interface:/home/w0x7ce/ws_moveit2/install/moveit_ros_move_group:/home/w0x7ce/ws_moveit2/install/moveit_ros_warehouse:/home/w0x7ce/ws_moveit2/install/moveit_kinematics:/home/w0x7ce/ws_moveit2/install/moveit_ros_planning:/home/w0x7ce/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/w0x7ce/ws_moveit2/install/moveit_core:/home/w0x7ce/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/w0x7ce/ws_moveit2/install/srdfdom:/home/w0x7ce/ws_moveit2/install/moveit_resources_panda_description:/home/w0x7ce/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/w0x7ce/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/w0x7ce/ws_moveit2/install/moveit_ros_move_group/lib:/home/w0x7ce/ws_moveit2/install/moveit_ros_warehouse/lib:/home/w0x7ce/ws_moveit2/install/moveit_kinematics/lib:/home/w0x7ce/ws_moveit2/install/moveit_ros_planning/lib:/home/w0x7ce/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/w0x7ce/ws_moveit2/install/moveit_core/lib:/home/w0x7ce/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/w0x7ce/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/w0x7ce/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/w0x7ce/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/w0x7ce/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/w0x7ce/ws_moveit2/build/moveit_servo

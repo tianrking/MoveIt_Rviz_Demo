@@ -1,0 +1,95 @@
+[0.015s] Invoking command in '/home/w0x7ce/ws_moveit2/build/chomp_motion_planner': AMENT_PREFIX_PATH=/home/w0x7ce/ws_moveit2/install/moveit_core:/home/w0x7ce/ws_moveit2/install/srdfdom:/home/w0x7ce/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/w0x7ce/ws_moveit2/install/moveit_core:/home/w0x7ce/ws_moveit2/install/srdfdom:/home/w0x7ce/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/w0x7ce/ws_moveit2/install/moveit_core/lib:/home/w0x7ce/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/w0x7ce/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/w0x7ce/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/w0x7ce/ws_moveit2/src/moveit2/moveit_planners/chomp/chomp_motion_planner -DCMAKE_INSTALL_PREFIX=/home/w0x7ce/ws_moveit2/install/chomp_motion_planner
+[0.079s] -- The C compiler identification is GNU 11.3.0
+[0.144s] -- The CXX compiler identification is GNU 11.3.0
+[0.154s] -- Detecting C compiler ABI info
+[0.219s] -- Detecting C compiler ABI info - done
+[0.228s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.228s] -- Detecting C compile features
+[0.229s] -- Detecting C compile features - done
+[0.232s] -- Detecting CXX compiler ABI info
+[0.347s] -- Detecting CXX compiler ABI info - done
+[0.356s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.356s] -- Detecting CXX compile features
+[0.357s] -- Detecting CXX compile features - done
+[0.359s] -- Found moveit_common: 2.5.4 (/home/w0x7ce/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+[0.362s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.565s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.740s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[0.747s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[0.747s] -- BACKWARD_HAS_UNWIND=1
+[0.747s] -- BACKWARD_HAS_BACKTRACE=0
+[0.747s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.748s] -- BACKWARD_HAS_DW=1
+[0.748s] -- BACKWARD_HAS_BFD=0
+[0.749s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.749s] [0mchomp_motion_planner: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.750s] -- Found moveit_core: 2.5.4 (/home/w0x7ce/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+[0.892s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.909s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.967s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.973s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.984s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.000s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.023s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.241s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.244s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.340s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.366s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.430s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.441s] -- Found Threads: TRUE  
+[1.659s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.016s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.016s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.281s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.295s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.295s] -- Configured cppcheck include dirs: /home/w0x7ce/ws_moveit2/src/moveit2/moveit_planners/chomp/chomp_motion_planner/include
+[3.296s] -- Configured cppcheck exclude dirs and/or files: 
+[3.296s] -- Added test 'xmllint' to check XML markup files
+[3.298s] -- Configuring done
+[3.329s] -- Generating done
+[3.332s] -- Build files have been written to: /home/w0x7ce/ws_moveit2/build/chomp_motion_planner
+[3.346s] Invoked command in '/home/w0x7ce/ws_moveit2/build/chomp_motion_planner' returned '0': AMENT_PREFIX_PATH=/home/w0x7ce/ws_moveit2/install/moveit_core:/home/w0x7ce/ws_moveit2/install/srdfdom:/home/w0x7ce/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/w0x7ce/ws_moveit2/install/moveit_core:/home/w0x7ce/ws_moveit2/install/srdfdom:/home/w0x7ce/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/w0x7ce/ws_moveit2/install/moveit_core/lib:/home/w0x7ce/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/w0x7ce/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/w0x7ce/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/w0x7ce/ws_moveit2/src/moveit2/moveit_planners/chomp/chomp_motion_planner -DCMAKE_INSTALL_PREFIX=/home/w0x7ce/ws_moveit2/install/chomp_motion_planner
+[3.347s] Invoking command in '/home/w0x7ce/ws_moveit2/build/chomp_motion_planner': AMENT_PREFIX_PATH=/home/w0x7ce/ws_moveit2/install/moveit_core:/home/w0x7ce/ws_moveit2/install/srdfdom:/home/w0x7ce/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/w0x7ce/ws_moveit2/install/moveit_core:/home/w0x7ce/ws_moveit2/install/srdfdom:/home/w0x7ce/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/w0x7ce/ws_moveit2/install/moveit_core/lib:/home/w0x7ce/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/w0x7ce/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/w0x7ce/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/w0x7ce/ws_moveit2/build/chomp_motion_planner -- -j4 -l4
+[3.375s] [ 16%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_cost.cpp.o[0m
+[3.375s] [ 33%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_parameters.cpp.o[0m
+[3.375s] [ 50%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o[0m
+[4.138s] [ 66%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_optimizer.cpp.o[0m
+[4.160s] [ 83%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_planner.cpp.o[0m
+[41.835s] [100%] [32m[1mLinking CXX shared library libchomp_motion_planner.so[0m
+[42.075s] [100%] Built target chomp_motion_planner
+[42.080s] Invoked command in '/home/w0x7ce/ws_moveit2/build/chomp_motion_planner' returned '0': AMENT_PREFIX_PATH=/home/w0x7ce/ws_moveit2/install/moveit_core:/home/w0x7ce/ws_moveit2/install/srdfdom:/home/w0x7ce/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/w0x7ce/ws_moveit2/install/moveit_core:/home/w0x7ce/ws_moveit2/install/srdfdom:/home/w0x7ce/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/w0x7ce/ws_moveit2/install/moveit_core/lib:/home/w0x7ce/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/w0x7ce/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/w0x7ce/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/w0x7ce/ws_moveit2/build/chomp_motion_planner -- -j4 -l4
+[42.112s] Invoking command in '/home/w0x7ce/ws_moveit2/build/chomp_motion_planner': AMENT_PREFIX_PATH=/home/w0x7ce/ws_moveit2/install/moveit_core:/home/w0x7ce/ws_moveit2/install/srdfdom:/home/w0x7ce/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/w0x7ce/ws_moveit2/install/moveit_core:/home/w0x7ce/ws_moveit2/install/srdfdom:/home/w0x7ce/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/w0x7ce/ws_moveit2/install/moveit_core/lib:/home/w0x7ce/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/w0x7ce/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/w0x7ce/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/w0x7ce/ws_moveit2/build/chomp_motion_planner
+[42.121s] -- Install configuration: "Release"
+[42.121s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/lib/libchomp_motion_planner.so.2.5.4
+[42.121s] -- Set runtime path of "/home/w0x7ce/ws_moveit2/install/chomp_motion_planner/lib/libchomp_motion_planner.so.2.5.4" to ""
+[42.122s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/lib/libchomp_motion_planner.so
+[42.122s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/include
+[42.122s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/include/chomp_motion_planner
+[42.122s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_optimizer.h
+[42.122s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_planner.h
+[42.122s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/include/chomp_motion_planner/multivariate_gaussian.h
+[42.122s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_cost.h
+[42.122s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_parameters.h
+[42.122s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_trajectory.h
+[42.122s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/include/chomp_motion_planner/chomp_utils.h
+[42.122s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/environment/library_path.sh
+[42.122s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/environment/library_path.dsv
+[42.122s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/share/ament_index/resource_index/package_run_dependencies/chomp_motion_planner
+[42.122s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/share/ament_index/resource_index/parent_prefix_path/chomp_motion_planner
+[42.122s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/environment/ament_prefix_path.sh
+[42.122s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/environment/ament_prefix_path.dsv
+[42.122s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/environment/path.sh
+[42.123s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/environment/path.dsv
+[42.123s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.bash
+[42.123s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.sh
+[42.123s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.zsh
+[42.123s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.dsv
+[42.123s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/package.dsv
+[42.123s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/share/ament_index/resource_index/packages/chomp_motion_planner
+[42.123s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerTargetsExport.cmake
+[42.123s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerTargetsExport-release.cmake
+[42.123s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/cmake/ament_cmake_export_targets-extras.cmake
+[42.123s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerConfig.cmake
+[42.123s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerConfig-version.cmake
+[42.123s] -- Installing: /home/w0x7ce/ws_moveit2/install/chomp_motion_planner/share/chomp_motion_planner/package.xml
+[42.134s] Invoked command in '/home/w0x7ce/ws_moveit2/build/chomp_motion_planner' returned '0': AMENT_PREFIX_PATH=/home/w0x7ce/ws_moveit2/install/moveit_core:/home/w0x7ce/ws_moveit2/install/srdfdom:/home/w0x7ce/ws_moveit2/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/w0x7ce/ws_moveit2/install/moveit_core:/home/w0x7ce/ws_moveit2/install/srdfdom:/home/w0x7ce/ws_moveit2/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/w0x7ce/ws_moveit2/install/moveit_core/lib:/home/w0x7ce/ws_moveit2/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/w0x7ce/ws_moveit2/install/moveit_core/bin:${PATH} PYTHONPATH=/home/w0x7ce/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/w0x7ce/ws_moveit2/build/chomp_motion_planner
